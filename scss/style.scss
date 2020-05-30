@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5,
 	color: $primary!important;
 }
 
-.ftco-navbar-light {
+.spire-navbar-light {
 	background: transparent!important;
 	position: absolute;
 	left: 0;
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5,
 			}
 
 			
-			&.ftco-seperator {
+			&.spire-seperator {
 				position: relative;
 				margin-left: 20px;
 				padding-left: 20px;
@@ -489,7 +489,7 @@ h1, h2, h3, h4, h5,
 
 
 //FEATURED SLIDER
-.ftco-section-featured {
+.spire-section-featured {
 	margin-top: -250px;
 	padding-bottom: 7em;
 	.container {
@@ -506,7 +506,7 @@ h1, h2, h3, h4, h5,
 			}
 		}
 	}
-	&.ftco-section-featured-2{
+	&.spire-section-featured-2{
 		margin-top: 0 !important;
 		padding-top: 7em;
 	}
@@ -721,7 +721,7 @@ h1, h2, h3, h4, h5,
 }
 
 
-.ftco-section-parallax {
+.spire-section-parallax {
 	position: relative;
 	.parallax-img {
 		background-size: cover;
@@ -944,7 +944,7 @@ h1, h2, h3, h4, h5,
 textarea.form-control {
 	height: inherit!important;
 }
-.ftco-vh-100 {
+.spire-vh-100 {
   height: 100vh;
   @include media-breakpoint-down(lg) {
   	height: inherit;
@@ -952,7 +952,7 @@ textarea.form-control {
   	padding-bottom: 5em;
   }
 }
-.ftco-vh-75 {
+.spire-vh-75 {
   height: 75vh;
   min-height: 700px;
   @include media-breakpoint-down(lg) {
@@ -964,7 +964,7 @@ textarea.form-control {
 }
 
 
-.ftco-tab-nav {
+.spire-tab-nav {
 	padding: 0;
 	margin: 0;
 	display: inline-block!important;
@@ -999,7 +999,7 @@ textarea.form-control {
 	}
 }
 
-.ftco-animate {
+.spire-animate {
 	opacity: 0;
 	visibility: hidden;
 }
@@ -1007,8 +1007,8 @@ textarea.form-control {
 .bg-primary {
 	background: $primary!important;
 }
-.ftco-section {
-	.ftco-sub-title {
+.spire-section {
+	.spire-sub-title {
 		font-size: 16px;
 		text-transform: uppercase;
 		letter-spacing: .5em;
@@ -1016,7 +1016,7 @@ textarea.form-control {
 		font-family: $font-family-sans-serif;
 		font-weight: 300;
 	}
-	.ftco-primary-title {
+	.spire-primary-title {
 		margin-top: 0;
 		margin-bottom: 30px;
 	}
@@ -1056,7 +1056,7 @@ textarea.form-control {
 }
 
 
-.ftco-section {
+.spire-section {
 	padding: 8em 0;
 	position: relative;
 	@include media-breakpoint-down(sm){
@@ -1064,20 +1064,20 @@ textarea.form-control {
 	}
 }
 
-.ftco-bg-dark {
+.spire-bg-dark {
 	background: #3c312e;
 }
 
 
-.ftco-footer {
+.spire-footer {
 	font-size: 16px;
 	background: $primary;
 	padding: 12em 0 8em 0;
-	.ftco-footer-logo {
+	.spire-footer-logo {
 		text-transform: uppercase;
 		letter-spacing: .1em;
 	}
-	.ftco-footer-widget {
+	.spire-footer-widget {
 		h2 {
 			font-weight: normal;
 			color: $white;
@@ -1104,7 +1104,7 @@ textarea.form-control {
 			color: $white;
 		}
 	}
-	.ftco-heading-2 {
+	.spire-heading-2 {
 		font-size: 17px;
 		font-weight: 400;
 		color: $black;
@@ -1112,7 +1112,7 @@ textarea.form-control {
 }
 
 
-.ftco-footer-social {
+.spire-footer-social {
 	li {
 		list-style: none;
 		margin: 0 10px 0 0;
@@ -1150,20 +1150,20 @@ textarea.form-control {
 	}
 }
 .media {
-	.ftco-icon {
+	.spire-icon {
 		width: 100px;
 		span {
 			color: $primary;
 		}
 	}
 }
-.ftco-media {
+.spire-media {
 	background: $white;
 	border-radius: 0px;
 	.heading {
 		font-weight: normal;
 	}
-	&.ftco-media-shadow {
+	&.spire-media-shadow {
 		padding: 40px;
 		background: $white;
 		box-shadow: 0 10px 50px -15px rgba(0,0,0,.3);
@@ -1181,12 +1181,12 @@ textarea.form-control {
 		color: $primary;
 	}
 	&.text-center {
-		.ftco-icon {
+		.spire-icon {
 			margin: 0 auto;
 		}
 	}
 }
-.ftco-overflow-hidden {
+.spire-overflow-hidden {
 	overflow: hidden;
 }
 
@@ -1359,7 +1359,7 @@ textarea.form-control {
   opacity: 0;
 }
 
-.ftco-counter {
+.spire-counter {
 	background: $tertiary;
 	padding: 10em 0;
 	.icon{
@@ -1382,13 +1382,13 @@ textarea.form-control {
 			margin-bottom: 20px;
 		}
 	}
-	.ftco-number {
+	.spire-number {
 		display: block;
 		font-size: 72px;
 		font-weight: bold;
 		color: $primary;
 	}
-	.ftco-label {
+	.spire-label {
 		font-size: 12px;
 		text-transform: uppercase;
 		letter-spacing: .1em;
@@ -2115,7 +2115,7 @@ textarea.form-control {
 
 
 
-#ftco-loader {
+#spire-loader {
 	position: fixed;
 	width:  96px;
 	height: 96px;
@@ -2131,7 +2131,7 @@ textarea.form-control {
 	z-index:1000;
 }
 
-#ftco-loader.fullscreen {
+#spire-loader.fullscreen {
 	padding:  0;
 	left:  0;
 	top:  0;
@@ -2143,13 +2143,13 @@ textarea.form-control {
 	box-shadow: none;
 }
 
-#ftco-loader.show {
+#spire-loader.show {
 	transition: opacity .4s ease-out, visibility 0s linear 0s;
 	visibility: visible;
 	opacity: 1;
 }
 
-#ftco-loader .circular {
+#spire-loader .circular {
   animation: loader-rotate 2s linear infinite;
   position: absolute;
   left:  calc(50% - 24px);
@@ -2158,7 +2158,7 @@ textarea.form-control {
   transform: rotate(0deg);
 }
 
-#ftco-loader .path {
+#spire-loader .path {
   stroke-dasharray: 1, 200;
   stroke-dashoffset: 0;
   animation: loader-dash 1.5s ease-in-out infinite;

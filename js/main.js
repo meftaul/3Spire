@@ -52,8 +52,8 @@
 	// loader
 	var loader = function() {
 		setTimeout(function() { 
-			if($('#ftco-loader').length > 0) {
-				$('#ftco-loader').removeClass('show');
+			if($('#spire-loader').length > 0) {
+				$('#spire-loader').removeClass('show');
 			}
 		}, 1);
 	};
@@ -116,7 +116,7 @@
 		$(window).scroll(function(){
 			var $w = $(this),
 					st = $w.scrollTop(),
-					navbar = $('.ftco_navbar'),
+					navbar = $('.spire_navbar'),
 					sd = $('.js-scroll-wrap');
 
 			if (st > 150) {
@@ -177,7 +177,7 @@
 		
 		$('#section-counter').waypoint( function( direction ) {
 
-			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
+			if( direction === 'down' && !$(this.element).hasClass('spire-animated') ) {
 
 				var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',')
 				$('.number').each(function(){
@@ -201,27 +201,27 @@
 
 	var contentWayPoint = function() {
 		var i = 0;
-		$('.ftco-animate').waypoint( function( direction ) {
+		$('.spire-animate').waypoint( function( direction ) {
 
-			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
+			if( direction === 'down' && !$(this.element).hasClass('spire-animated') ) {
 				
 				i++;
 
 				$(this.element).addClass('item-animate');
 				setTimeout(function(){
 
-					$('body .ftco-animate.item-animate').each(function(k){
+					$('body .spire-animate.item-animate').each(function(k){
 						var el = $(this);
 						setTimeout( function () {
 							var effect = el.data('animate-effect');
 							if ( effect === 'fadeIn') {
-								el.addClass('fadeIn ftco-animated');
+								el.addClass('fadeIn spire-animated');
 							} else if ( effect === 'fadeInLeft') {
-								el.addClass('fadeInLeft ftco-animated');
+								el.addClass('fadeInLeft spire-animated');
 							} else if ( effect === 'fadeInRight') {
-								el.addClass('fadeInRight ftco-animated');
+								el.addClass('fadeInRight spire-animated');
 							} else {
-								el.addClass('fadeInUp ftco-animated');
+								el.addClass('fadeInUp spire-animated');
 							}
 							el.removeClass('item-animate');
 						},  k * 50, 'easeInOutExpo' );
@@ -238,7 +238,7 @@
 
 	// navigation
 	var OnePageNav = function() {
-		$(".smoothscroll[href^='#'], #ftco-nav ul li a[href^='#']").on('click', function(e) {
+		$(".smoothscroll[href^='#'], #spire-nav ul li a[href^='#']").on('click', function(e) {
 		 	e.preventDefault();
 
 		 	var hash = this.hash,
